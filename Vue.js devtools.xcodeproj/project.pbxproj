@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391F41EF2998F27C007D6245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F41EE2998F27C007D6245 /* AppDelegate.swift */; };
+		391F41F32998F27C007D6245 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 391F41F12998F27C007D6245 /* Main.html */; };
+		391F41F52998F27C007D6245 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391F41F42998F27C007D6245 /* Icon.png */; };
+		391F41F72998F27C007D6245 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 391F41F62998F27C007D6245 /* Style.css */; };
+		391F41F92998F27C007D6245 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 391F41F82998F27C007D6245 /* Script.js */; };
+		391F41FB2998F27C007D6245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F41FA2998F27C007D6245 /* ViewController.swift */; };
+		391F41FE2998F27C007D6245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391F41FC2998F27C007D6245 /* Main.storyboard */; };
+		391F42002998F27D007D6245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391F41FF2998F27D007D6245 /* Assets.xcassets */; };
+		391F42092998F27D007D6245 /* Vue.js devtools Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 391F42082998F27D007D6245 /* Vue.js devtools Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		391F420E2998F27D007D6245 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F420D2998F27D007D6245 /* SafariWebExtensionHandler.swift */; };
+		391F42232998F27D007D6245 /* devtools.html in Resources */ = {isa = PBXBuildFile; fileRef = 391F421B2998F27D007D6245 /* devtools.html */; };
+		391F42242998F27D007D6245 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 391F421C2998F27D007D6245 /* _metadata */; };
+		391F42252998F27D007D6245 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 391F421D2998F27D007D6245 /* package.json */; };
+		391F42262998F27D007D6245 /* popups in Resources */ = {isa = PBXBuildFile; fileRef = 391F421E2998F27D007D6245 /* popups */; };
+		391F42272998F27D007D6245 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 391F421F2998F27D007D6245 /* icons */; };
+		391F42282998F27D007D6245 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 391F42202998F27D007D6245 /* manifest.json */; };
+		391F42292998F27D007D6245 /* build in Resources */ = {isa = PBXBuildFile; fileRef = 391F42212998F27D007D6245 /* build */; };
+		391F422A2998F27D007D6245 /* devtools-background.html in Resources */ = {isa = PBXBuildFile; fileRef = 391F42222998F27D007D6245 /* devtools-background.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		391F420A2998F27D007D6245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391F41E32998F27C007D6245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391F42072998F27D007D6245;
+			remoteInfo = "Vue.js devtools Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		391F42162998F27D007D6245 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				391F42092998F27D007D6245 /* Vue.js devtools Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		391F41EB2998F27C007D6245 /* Vue.js devtools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vue.js devtools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391F41EE2998F27C007D6245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		391F41F22998F27C007D6245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		391F41F42998F27C007D6245 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		391F41F62998F27C007D6245 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		391F41F82998F27C007D6245 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		391F41FA2998F27C007D6245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		391F41FD2998F27C007D6245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		391F41FF2998F27D007D6245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		391F42012998F27D007D6245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391F42022998F27D007D6245 /* Vue_js_devtools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vue_js_devtools.entitlements; sourceTree = "<group>"; };
+		391F42032998F27D007D6245 /* Vue.js devtools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Vue.js devtools.entitlements"; sourceTree = "<group>"; };
+		391F42082998F27D007D6245 /* Vue.js devtools Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vue.js devtools Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391F420D2998F27D007D6245 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		391F420F2998F27D007D6245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391F42102998F27D007D6245 /* Vue_js_devtools_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vue_js_devtools_Extension.entitlements; sourceTree = "<group>"; };
+		391F421B2998F27D007D6245 /* devtools.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = devtools.html; path = Resources/devtools.html; sourceTree = "<group>"; };
+		391F421C2998F27D007D6245 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
+		391F421D2998F27D007D6245 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = Resources/package.json; sourceTree = "<group>"; };
+		391F421E2998F27D007D6245 /* popups */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popups; path = Resources/popups; sourceTree = "<group>"; };
+		391F421F2998F27D007D6245 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		391F42202998F27D007D6245 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		391F42212998F27D007D6245 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = build; path = Resources/build; sourceTree = "<group>"; };
+		391F42222998F27D007D6245 /* devtools-background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "devtools-background.html"; path = "Resources/devtools-background.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		391F41E82998F27C007D6245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391F42052998F27D007D6245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391F41E22998F27C007D6245 = {
+			isa = PBXGroup;
+			children = (
+				391F41ED2998F27C007D6245 /* Vue.js devtools */,
+				391F420C2998F27D007D6245 /* Vue.js devtools Extension */,
+				391F41EC2998F27C007D6245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		391F41EC2998F27C007D6245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				391F41EB2998F27C007D6245 /* Vue.js devtools.app */,
+				391F42082998F27D007D6245 /* Vue.js devtools Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391F41ED2998F27C007D6245 /* Vue.js devtools */ = {
+			isa = PBXGroup;
+			children = (
+				391F41EE2998F27C007D6245 /* AppDelegate.swift */,
+				391F41FA2998F27C007D6245 /* ViewController.swift */,
+				391F41FC2998F27C007D6245 /* Main.storyboard */,
+				391F41FF2998F27D007D6245 /* Assets.xcassets */,
+				391F42012998F27D007D6245 /* Info.plist */,
+				391F42022998F27D007D6245 /* Vue_js_devtools.entitlements */,
+				391F42032998F27D007D6245 /* Vue.js devtools.entitlements */,
+				391F41F02998F27C007D6245 /* Resources */,
+			);
+			path = "Vue.js devtools";
+			sourceTree = "<group>";
+		};
+		391F41F02998F27C007D6245 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				391F41F12998F27C007D6245 /* Main.html */,
+				391F41F42998F27C007D6245 /* Icon.png */,
+				391F41F62998F27C007D6245 /* Style.css */,
+				391F41F82998F27C007D6245 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		391F420C2998F27D007D6245 /* Vue.js devtools Extension */ = {
+			isa = PBXGroup;
+			children = (
+				391F421A2998F27D007D6245 /* Resources */,
+				391F420D2998F27D007D6245 /* SafariWebExtensionHandler.swift */,
+				391F420F2998F27D007D6245 /* Info.plist */,
+				391F42102998F27D007D6245 /* Vue_js_devtools_Extension.entitlements */,
+			);
+			path = "Vue.js devtools Extension";
+			sourceTree = "<group>";
+		};
+		391F421A2998F27D007D6245 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				391F421B2998F27D007D6245 /* devtools.html */,
+				391F421C2998F27D007D6245 /* _metadata */,
+				391F421D2998F27D007D6245 /* package.json */,
+				391F421E2998F27D007D6245 /* popups */,
+				391F421F2998F27D007D6245 /* icons */,
+				391F42202998F27D007D6245 /* manifest.json */,
+				391F42212998F27D007D6245 /* build */,
+				391F42222998F27D007D6245 /* devtools-background.html */,
+			);
+			name = Resources;
+			path = "Vue.js devtools Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		391F41EA2998F27C007D6245 /* Vue.js devtools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391F42172998F27D007D6245 /* Build configuration list for PBXNativeTarget "Vue.js devtools" */;
+			buildPhases = (
+				391F41E72998F27C007D6245 /* Sources */,
+				391F41E82998F27C007D6245 /* Frameworks */,
+				391F41E92998F27C007D6245 /* Resources */,
+				391F42162998F27D007D6245 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391F420B2998F27D007D6245 /* PBXTargetDependency */,
+			);
+			name = "Vue.js devtools";
+			productName = "Vue.js devtools";
+			productReference = 391F41EB2998F27C007D6245 /* Vue.js devtools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		391F42072998F27D007D6245 /* Vue.js devtools Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391F42132998F27D007D6245 /* Build configuration list for PBXNativeTarget "Vue.js devtools Extension" */;
+			buildPhases = (
+				391F42042998F27D007D6245 /* Sources */,
+				391F42052998F27D007D6245 /* Frameworks */,
+				391F42062998F27D007D6245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vue.js devtools Extension";
+			productName = "Vue.js devtools Extension";
+			productReference = 391F42082998F27D007D6245 /* Vue.js devtools Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		391F41E32998F27C007D6245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					391F41EA2998F27C007D6245 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					391F42072998F27D007D6245 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 391F41E62998F27C007D6245 /* Build configuration list for PBXProject "Vue.js devtools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 391F41E22998F27C007D6245;
+			productRefGroup = 391F41EC2998F27C007D6245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				391F41EA2998F27C007D6245 /* Vue.js devtools */,
+				391F42072998F27D007D6245 /* Vue.js devtools Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		391F41E92998F27C007D6245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F41F52998F27C007D6245 /* Icon.png in Resources */,
+				391F41FE2998F27C007D6245 /* Main.storyboard in Resources */,
+				391F41F92998F27C007D6245 /* Script.js in Resources */,
+				391F41F32998F27C007D6245 /* Main.html in Resources */,
+				391F42002998F27D007D6245 /* Assets.xcassets in Resources */,
+				391F41F72998F27C007D6245 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391F42062998F27D007D6245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F422A2998F27D007D6245 /* devtools-background.html in Resources */,
+				391F42232998F27D007D6245 /* devtools.html in Resources */,
+				391F42262998F27D007D6245 /* popups in Resources */,
+				391F42242998F27D007D6245 /* _metadata in Resources */,
+				391F42272998F27D007D6245 /* icons in Resources */,
+				391F42282998F27D007D6245 /* manifest.json in Resources */,
+				391F42252998F27D007D6245 /* package.json in Resources */,
+				391F42292998F27D007D6245 /* build in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		391F41E72998F27C007D6245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F41FB2998F27C007D6245 /* ViewController.swift in Sources */,
+				391F41EF2998F27C007D6245 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391F42042998F27D007D6245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F420E2998F27D007D6245 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391F420B2998F27D007D6245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391F42072998F27D007D6245 /* Vue.js devtools Extension */;
+			targetProxy = 391F420A2998F27D007D6245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		391F41F12998F27C007D6245 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391F41F22998F27C007D6245 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		391F41FC2998F27C007D6245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391F41FD2998F27C007D6245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		391F42112998F27D007D6245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		391F42122998F27D007D6245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		391F42142998F27D007D6245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Vue.js devtools Extension/Vue_js_devtools_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vue.js devtools Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vue.js devtools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arizsiddiqui.Vue-js-devtools.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		391F42152998F27D007D6245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Vue.js devtools Extension/Vue_js_devtools_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vue.js devtools Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vue.js devtools Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arizsiddiqui.Vue-js-devtools.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		391F42182998F27D007D6245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vue.js devtools/Vue.js devtools.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vue.js devtools/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vue.js devtools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arizsiddiqui.Vue-js-devtools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		391F42192998F27D007D6245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Vue.js devtools/Vue.js devtools.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vue.js devtools/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Vue.js devtools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arizsiddiqui.Vue-js-devtools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		391F41E62998F27C007D6245 /* Build configuration list for PBXProject "Vue.js devtools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391F42112998F27D007D6245 /* Debug */,
+				391F42122998F27D007D6245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391F42132998F27D007D6245 /* Build configuration list for PBXNativeTarget "Vue.js devtools Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391F42142998F27D007D6245 /* Debug */,
+				391F42152998F27D007D6245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391F42172998F27D007D6245 /* Build configuration list for PBXNativeTarget "Vue.js devtools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391F42182998F27D007D6245 /* Debug */,
+				391F42192998F27D007D6245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 391F41E32998F27C007D6245 /* Project object */;
+}
